@@ -1,0 +1,10 @@
+-EXECUTAR ARQUIVOS .RB COM RSPEC
+    rspec arquivo.rb
+
+
+-EXECUTAR ARQUIVOS .RB COM RSPEC E EXIBIR OS CENÁRIOS CRIADOS
+    rspec arquivo.rb -fb
+    O camando fd, quer dizer formato de documentacao
+
+-GERAR RELATÓRIO COM FORMADO HTML
+rspec --format html --out report.html
