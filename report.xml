@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="14" skipped="0" failures="0" errors="0" time="0.003574" timestamp="2019-09-28T10:43:45-04:00" hostname="transiretestes.local">
+<properties>
+<property name="seed" value="13623"/>
+</properties>
+<testcase classname="unitarios.spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor é positivo entao atualiza saldo" file="./unitarios/spec/bank/saque_cc_spec.rb" time="0.000473"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero entao exibe mensagem" file="./unitarios/spec/bank/saque_cc_spec.rb" time="0.000051"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero e o saldo final permanece com zeros" file="./unitarios/spec/bank/saque_cc_spec.rb" time="0.000075"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é insuficiente entao exibe mensagem" file="./unitarios/spec/bank/saque_cc_spec.rb" time="0.000055"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é insuficiente e o saldo permanece" file="./unitarios/spec/bank/saque_cc_spec.rb" time="0.000077"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cc_spec" name="ContaCorrente Saque quando excedo o limite de saque entao exibe a mensagem" file="./unitarios/spec/bank/saque_cc_spec.rb" time="0.000070"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cc_spec" name="ContaCorrente Saque quando excedo o limite de saque e o saldo permanece" file="./unitarios/spec/bank/saque_cc_spec.rb" time="0.000072"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor é positivo entao atualiza saldo" file="./unitarios/spec/bank/saque_cp_spec.rb" time="0.000039"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero entao exibe mensagem" file="./unitarios/spec/bank/saque_cp_spec.rb" time="0.000039"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero e o saldo final permanece com zeros" file="./unitarios/spec/bank/saque_cp_spec.rb" time="0.000036"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é insuficiente entao exibe mensagem" file="./unitarios/spec/bank/saque_cp_spec.rb" time="0.000037"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é insuficiente e o saldo permanece" file="./unitarios/spec/bank/saque_cp_spec.rb" time="0.000036"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando excedo o limite de saque entao exibe a mensagem" file="./unitarios/spec/bank/saque_cp_spec.rb" time="0.000037"></testcase>
+<testcase classname="unitarios.spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando excedo o limite de saque e o saldo permanece" file="./unitarios/spec/bank/saque_cp_spec.rb" time="0.000035"></testcase>
+</testsuite>

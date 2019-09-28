@@ -7,4 +7,16 @@
     O camando fd, quer dizer formato de documentacao
 
 -GERAR RELATÓRIO COM FORMADO HTML
-rspec --format html --out report.html
+    rspec --format html --out report.html
+    ou rspec --format html --out report.html -fd
+
+- SE QUISER EXECUTAR NO JENKINS OU QUALQUER OUTRO TIPO DE SERVIDOR QUE EXECUTA BUILDS
+
+    rspec --format RspectJunitFormatter --out report.xml
+    ou rspec --format RspectJunitFormatter --out report.xml -fd
+    gerar um arquivo xml compativel com jenkins
+
+
+-CAPYBARA
+     Capybara é uma biblioteca escrita na linguagem de programação Ruby
+    é um framework de automacao web
