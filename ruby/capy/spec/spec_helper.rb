@@ -21,8 +21,8 @@ end
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
-  config.default_max_wait_time = 15
   config.app_host = 'https://training-wheels-protocol.herokuapp.com'
+  config.default_max_wait_time = 5 #não preciso mais de sleep no meu codigo
 
   #driver default do selenium trabalha com firefox
   #para rodar no firefox deve usar  config.default_driver = :selenium

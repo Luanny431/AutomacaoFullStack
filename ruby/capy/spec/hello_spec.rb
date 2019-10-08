@@ -1,3 +1,5 @@
+require './spec_helper'
+
 describe 'Meu primeiro script' do
 
     it 'visitar a página' do

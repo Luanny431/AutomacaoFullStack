@@ -1,0 +1,4 @@
+-EXECUTAR UM CENÁRIO ESPECÍFICO DENTRO DE UM ARQUIVO
+    adicionar a tag dentro do cenário it 'exemplo', :sample do 
+    rspec --tag sample dropdown_spec.rb
+
